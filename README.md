@@ -6,7 +6,7 @@ I ported a code from TeensyLC to a STM32F103C8T6.
 
 The original is here https://github.com/zlittell/MSF-FightStick.
 
-Thanks Zach.
+Thanks Zack.
 
 To do list:
 * Read led and rumble feedback
