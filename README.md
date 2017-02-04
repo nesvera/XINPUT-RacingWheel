@@ -1,8 +1,11 @@
 # XINPUT-RacingWheel
 
 This racing wheel is based in an XINPUT Xbox 360 controller.
+
 I ported a code from TeensyLC to a STM32F103C8T6.
+
 The original is here https://github.com/zlittell/MSF-FightStick.
+
 Thanks Zach.
 
 To do list:
