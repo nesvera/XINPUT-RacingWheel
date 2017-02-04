@@ -8,6 +8,8 @@ The original is here https://github.com/zlittell/MSF-FightStick.
 
 Thanks Zack.
 
+I talk more about this project im my blog, take a look. https://engenhariaegambiarras.wordpress.com/2017/02/04/racing-wheel-xinput-controller/
+
 <img src="https://cloud.githubusercontent.com/assets/17488425/22621683/a518770a-eb10-11e6-9fed-834b1cdd1bd9.JPG" width="600px" height="500px" />
 
 
