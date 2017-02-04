@@ -8,7 +8,8 @@ The original is here https://github.com/zlittell/MSF-FightStick.
 
 Thanks Zack.
 
-![img_1175](https://cloud.githubusercontent.com/assets/17488425/22621683/a518770a-eb10-11e6-9fed-834b1cdd1bd9.JPG)
+<img src="https://cloud.githubusercontent.com/assets/17488425/22621683/a518770a-eb10-11e6-9fed-834b1cdd1bd9.JPG" width="600px" height="500px" />
+
 
 To do list:
 * Read led and rumble feedback
