@@ -12,6 +12,7 @@ I talk more about this project im my blog, take a look. https://engenhariaegambi
 
 <img src="https://cloud.githubusercontent.com/assets/17488425/22621683/a518770a-eb10-11e6-9fed-834b1cdd1bd9.JPG" width="600px" height="500px" />
 
+You will need uVision IDE to open this project. Open the file "stm32_xinput" inside "MDK-ARM" folder.
 
 To do list:
 * Read led and rumble feedback
