@@ -177,18 +177,18 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>251</LineNumber>
+          <LineNumber>170</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
+          <Address>134218548</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../Src/usbd_conf.c</Filename>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../Src/usbd_custom_hid_if.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression></Expression>
+          <Expression>\\stm32_xinput\../Src/usbd_custom_hid_if.c\170</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>

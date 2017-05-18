@@ -312,9 +312,13 @@ static uint8_t  USBD_CUSTOM_HID_Init (USBD_HandleTypeDef *pdev,
   USBD_LL_OpenEP(pdev,
                  CUSTOM_HID_EPOUT_ADDR,
                  USBD_EP_TYPE_INTR,
-                 CUSTOM_HID_EPOUT_SIZE);
-  
+                 0x20);
 	
+  
+	USBD_LL_OpenEP(pdev,
+                 0x04,
+                 USBD_EP_TYPE_INTR,
+                 0x20);
 	
 	//USBD_LL_OpenEP(pdev, XINPUT_RX_ENDPOINT, USBD_EP_TYPE_BULK, XINPUT_RX_SIZE );
 	//USBD_LL_OpenEP(pdev, XINPUT_TX_ENDPOINT, USBD_EP_TYPE_INTR, XINPUT_TX_SIZE );
@@ -336,6 +340,10 @@ static uint8_t  USBD_CUSTOM_HID_Init (USBD_HandleTypeDef *pdev,
                            USBD_CUSTOMHID_OUTREPORT_BUF_SIZE);
 		
 		USBD_LL_PrepareReceive(pdev, XINPUT_RX_ENDPOINT, hhid->Report_buf, XINPUT_RX_SIZE );
+		
+		USBD_LL_PrepareReceive(pdev, 0x04, hhid->Report_buf, 
+                           USBD_CUSTOMHID_OUTREPORT_BUF_SIZE);
+		
 		
   }
     
